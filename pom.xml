@@ -13,6 +13,8 @@
         <module>springMvc4-httpMessageConverter</module>
         <module>springMvc4-usualAnnotation</module>
         <module>springMvc4-staticResource</module>
+        <module>springMvc4-interceptor</module>
+        <module>springMvc4-controllerAdvice1</module>
     </modules>
 
     <properties>

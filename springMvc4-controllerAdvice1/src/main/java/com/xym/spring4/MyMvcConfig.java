@@ -10,23 +10,21 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-/**
- * @author xym
- */
 @Configuration
-@ComponentScan("com.xym.spring4")
 @EnableWebMvc
-public class MyWebConfig extends WebMvcConfigurerAdapter {
+@ComponentScan("com.xym.spring4")
+public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/WEB-INF/classes/views/");
         viewResolver.setSuffix(".jsp");
+        viewResolver.setPrefix("/WEB-INF/classes/views/");
         viewResolver.setViewClass(JstlView.class);
         return viewResolver;
     }
 
+    /*Spring MVC DispatcherServlet拦截器不拦截资源*/
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");

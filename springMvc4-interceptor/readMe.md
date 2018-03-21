@@ -1,0 +1,5 @@
+拦截器(Interceptor)实现对每一个请求处理前后进行相关的业务处理，类似于Servlet的Filter。
+
+可让普通的Bean实现HandlerInterceptor接口或者继承HandlerInterceptorAdapter类来实现自定义拦截器。
+
+通过重写WebMvcConfigurerAdapter的addInterceptors方法来注册自定义的拦截器，下面演示一个简单的拦截器的开发和配置。业务含义为计算每一次请求的处理时间。
