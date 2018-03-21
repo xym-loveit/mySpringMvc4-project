@@ -15,7 +15,8 @@
         <module>springMvc4-staticResource</module>
         <module>springMvc4-interceptor</module>
         <module>springMvc4-controllerAdvice1</module>
-        <module>springMvc4-viewController</module>
+        <module>springMvc4-viewController-useSuffixPatternMatch</module>
+        <module>springMvc4-fileUpload</module>
     </modules>
 
     <properties>

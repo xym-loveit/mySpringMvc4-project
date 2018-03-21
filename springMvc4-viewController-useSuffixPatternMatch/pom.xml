@@ -6,11 +6,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>springMvc4-viewController</artifactId>
+    <artifactId>springMvc4-viewController-useSuffixPatternMatch</artifactId>
     <packaging>war</packaging>
-    <name>springMvc4-viewController Maven Webapp</name>
+    <name>springMvc4-viewController-useSuffixPatternMatch Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <build>
-        <finalName>springMvc4-viewController</finalName>
+        <finalName>springMvc4-viewController-useSuffixPatternMatch</finalName>
     </build>
 </project>
