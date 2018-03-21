@@ -15,6 +15,7 @@
         <module>springMvc4-staticResource</module>
         <module>springMvc4-interceptor</module>
         <module>springMvc4-controllerAdvice1</module>
+        <module>springMvc4-viewController</module>
     </modules>
 
     <properties>
