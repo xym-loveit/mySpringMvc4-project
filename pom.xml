@@ -17,6 +17,9 @@
         <module>springMvc4-controllerAdvice1</module>
         <module>springMvc4-viewController-useSuffixPatternMatch</module>
         <module>springMvc4-fileUpload</module>
+        <module>springMvc4-ServerSendEvent</module>
+        <module>springMvc4-servlet3AndAsyncMethod</module>
+        <module>springMvc4-junitSpringMockTest</module>
     </modules>
 
     <properties>
